@@ -21,7 +21,7 @@ jobs:
         cargo install --locked --git https://github.com/asciinema/asciinema
         gcc test_gen.c -o test_gen
         asciinema rec main.cast -c ./test_gen --return
-        agg main.cast main.gif --rows 100 --cols 40
+        agg main.cast main.gif --rows 40 --cols 100
         git add main.gif main.c
         git config --global user.email "$GITHUB_REPOSITORY_OWNER_ID+$GITHUB_REPOSITORY_OWNER@users.noreply.github.com"
         git config --global user.name "$GITHUB_REPOSITORY_OWNER"
