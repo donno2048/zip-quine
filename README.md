@@ -2,7 +2,7 @@
 
 [![Test status](https://github.com/donno2048/zip-quine/actions/workflows/test-and-gen-main.c-and-gif.yml/badge.svg)](https://github.com/donno2048/zip-quine/actions/workflows/test-and-gen-main.c-and-gif.yml)
 
-![Gif](./main.gif)
+[![Gif](./main.gif)](https://youtu.be/sIdGe2xg9Qw)
 
 This is a program that generates a ZIP file with a program that generates a ZIP file...
 
